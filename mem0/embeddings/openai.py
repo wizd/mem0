@@ -7,7 +7,7 @@ class OpenAIEmbedding(EmbeddingBase):
     def __init__(self, model="text-embedding-3-small"):
         self.client = OpenAI()
         self.model = model
-        self.dims = 1536
+        self.dims = 1024
 
     def embed(self, text):
         """
