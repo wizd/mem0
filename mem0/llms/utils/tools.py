@@ -1,7 +1,7 @@
 ADD_MEMORY_TOOL = {
     "type": "function",
-    "name": "add_memory",
     "function": {
+        "name": "add_memory",
         "description": "Add a memory",
         "parameters": {
             "type": "object",
@@ -15,8 +15,8 @@ ADD_MEMORY_TOOL = {
 
 UPDATE_MEMORY_TOOL = {
     "type": "function",
-    "name": "update_memory",
     "function": {
+        "name": "update_memory",
         "description": "Update memory provided ID and data",
         "parameters": {
             "type": "object",
@@ -37,8 +37,8 @@ UPDATE_MEMORY_TOOL = {
 
 DELETE_MEMORY_TOOL = {
     "type": "function",
-    "name": "delete_memory",
     "function": {
+        "name": "delete_memory",
         "description": "Delete memory by memory_id",
         "parameters": {
             "type": "object",
