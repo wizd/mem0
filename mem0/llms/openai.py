@@ -72,7 +72,7 @@ class OpenAILLM(LLMBase):
             params["response_format"] = response_format
         if tools:
             params["tools"] = tools
-            #params["tool_choice"] = tool_choice
+            params["tool_choice"] = tool_choice
 
         response = self.client.chat.completions.create(**params)
         return self._parse_response(response, tools)
